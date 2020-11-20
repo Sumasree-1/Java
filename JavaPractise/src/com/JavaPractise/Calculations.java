@@ -10,8 +10,7 @@ public class Calculations {
 		Calculations cal = new Calculations();
 		int arg1 = 10;
 		int arg2 = 20;
-		System.out.print("Values before addition arg1: " +arg1);
-		System.out.println(" and arg2: " +arg2);
+		System.out.print("Values before addition arg1: " +arg1+" and arg2: " +arg2);
 		Integer result = cal.add(arg1,arg2);
 		System.out.println("Result: " + result);
 	}
